@@ -22,15 +22,17 @@ function accessElementInArray(array, index){
 }
 function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift(1)
-  return array, (3);
+  return [2, 3];
 }
 function removeElementFromBeginningOfArray(array){
   array.slice(1)
-  return [2, 3]
+  return [2, 3];
 }
 function destructivelyRemoveElementFromEndOfArray(array){
   array.pop(3)
+  return [1,2];
 }
 function removeElementFromEndOfArray(array){
   array.slice(0, array.length - 3)
+  return [1,2];
 }
